@@ -1,0 +1,38 @@
+.register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    color: white;
+    background-color: black;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 400px;
+    border: 2px solid white;
+    padding: 10px;
+}
+.container input {
+    width: 94%;
+    padding: 10px;
+}
+.container h1 {
+text-align: center;
+color: blue;
+}
+.btn2 {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    background-color: orange;
+}
+.login_logo {
+    width: 100px;
+    object-fit: contain;
+    margin-top: 20px;
+    margin-bottom:20px;
+}

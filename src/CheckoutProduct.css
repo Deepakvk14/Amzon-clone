@@ -1,0 +1,32 @@
+.checkout_product {
+    display: flex;
+    justify-content: start;
+    margin-top: 20px;
+    background-color: rgb(214, 208, 208);
+}
+.checkout_product_image {
+    height: 180px;
+    padding:20px;
+    width: 200px;
+    object-fit: contain;
+}
+.checkout_product_ratting {
+    display: flex;
+    margin-top: 0px;
+}
+.checkout_product_info button {
+    margin-top: 0px;
+    background-color: rgb(250, 206, 12);
+    border: none;
+    height: 30px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+
+}
+.checkout_product_info strong {
+margin-top: 0px;
+font-size: 1.2rem;
+}
+.checkout_product_ratting {
+    color: orange;
+}

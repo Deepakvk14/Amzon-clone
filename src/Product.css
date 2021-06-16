@@ -1,0 +1,42 @@
+.product {
+    min-width: 100px;
+    max-height: 400px;
+    background-color:lightblue;
+    padding:10px;
+    margin: 20px;
+    box-shadow: 0px 0px 10px black;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    flex:1;
+
+}
+.product_ratting {
+    display: flex;
+    color: yellow;
+
+}
+/* .product_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+.product_ratting h1{
+    margin-top: 0px;
+}
+
+.product_image {
+    object-fit: contain;
+    height: 200px;
+    width: 100%;
+    
+}
+.btn {
+    margin-top: 10px;
+    background-color: orange;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    
+
+}

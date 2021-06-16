@@ -1,0 +1,12 @@
+.checkout {
+    display: flex;
+    background-color: white;
+    padding-top: 50px;
+    justify-content: space-between;
+    
+}
+.checkout_Add {
+    width: 100%;
+    display: flex;
+    flex:1;
+}
